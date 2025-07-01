@@ -3,15 +3,16 @@ function listar(request, response) {
 }
 
 function criar(request, response) {
-  response.send("Função responsável por criar um curso")
+  response.send("Função responsável por criar um professor")
 }
 
 function atualizar(request, response) {
-  response.send("Função responsável por atualizar um curso")
+  response.send("Função responsável por atualizar um professor")
 }
 
+
 function deletar(request, response) {
-  response.send("Função responsável por deletar um curso")
+  response.send("Função responsável por deletar um professor")
 }
 
 module.exports = {
